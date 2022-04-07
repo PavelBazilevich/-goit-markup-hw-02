@@ -1,1 +1,134 @@
-/*  */
+/* основной цвет текста (параграфы) color:#757575 */
+/* вспомагательный цвет текста  (заголовки) color:#212121 */
+/* цвет ховер color:#2196F3 */
+:root{
+
+}
+body{
+
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+
+  background-color: #FFFFFF;
+  color: #757575;
+
+}
+
+
+
+a{
+    font-style: normal;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+/* ----HEADER---- */
+/* логотип */
+.header{
+    background-color: #FFFFFF;
+}
+
+.first-name, 
+.second-name{
+font-family: 'Raleway';
+font-weight: 700;
+font-size: 26px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+}
+ 
+
+.first-name {
+color:#2196F3 ;
+margin-right: -4px;
+}
+.second-name{
+color:#212121
+}
+/* ссылки на страницы */
+.link{
+color:#212121
+}
+.site-nav,
+.link:hover{
+    color: #2196F3;
+}
+.site-nav .link.current{
+    color:#2196F3
+}
+.site-nav,
+.navigation{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.02em
+}
+
+/* ссылки на контакты */
+.contacts{
+
+}
+.contacts-link{
+list-style: none;
+   color:#757575
+}
+.contacts-link:hover{
+  color:#2196F3  
+}
+.map-link{
+    color: #FFFFFF ;
+}
+/* ----HERO---- */
+.hero{
+    background-color: #2F303A;
+}
+.hero-tile{
+font-weight: 900;
+font-size: 44px;
+line-height: 1.4;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+.hero-button{
+/* font-family: 'Roboto';
+font-style: normal; */
+font-weight: 700;
+font-size: 16px;
+line-height: 1.9;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+background-color: #2196F3;;
+color: #FFFFFF;
+}
+
+h3{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.7;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+
+color: #212121;
+}
+
+.features,
+.specialization,
+.staff{
+font-weight: 700;
+font-size: 36px;
+line-height: 1.16;
+text-align: center;
+letter-spacing: 0.03em;
+
+color: #212121;
+}

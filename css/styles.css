@@ -42,9 +42,6 @@ ul{
 
 /* ----HEADER---- */
 /* логотип */
-.header{
-    background-color: var(--primari-bacground-color);
-}
 
 .first-name, 
 .second-name,

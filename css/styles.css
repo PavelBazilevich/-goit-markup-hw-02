@@ -24,7 +24,6 @@ body{
   font-family: Roboto, sans-serif;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
 
   background-color: var(--primari-bacground-color);
@@ -59,14 +58,14 @@ color:#2196F3 ;
 margin-right: -4px;
 }
 .second-name{
-color:#212121
+color: var(--secondary-text-color);
 }
 .second-white-name{
-    color: var(--primari-bacground-color);
+color: var(--primari-bacground-color);
 }
 /* ссылки на страницы */
 .link{
-color:#212121
+color: var(--secondary-text-color);
 }
 .site-nav,
 .link:hover,
@@ -88,7 +87,9 @@ letter-spacing: 0.02em
 
 /* ссылки на контакты */
 .contacts-link,
-.contacts-link-fut{
+.contacts-link-fut,
+.map-link{
+    line-height: 1.7;
     list-style: none;
 }
 .contacts-link{
@@ -145,7 +146,7 @@ cursor: pointer;
     background-color: var(--bacground-hover-button);
 }
 
-/*  ---NAIN--- */
+/*  ---MAIN--- */
 
 .features-title{
 font-weight: 700;
@@ -193,6 +194,8 @@ letter-spacing: 0.03em;
 }
 /* ---PORTFOLIO--- */
 .filter-items{
+font-family: 'Roboto';
+font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
